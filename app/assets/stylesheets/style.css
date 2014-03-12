@@ -857,20 +857,20 @@
 
 	.nav li a:hover{
 		background: transparent !important;
-		border-top:2px solid #3498db;
-		color:#3498db;
+		border-top:2px solid #ff994b;
+		color:#ff994b;
 	}
 
 	.nav li.active a{
 		background: transparent;
-		border-top:2px solid #3498db;
-		color:#3498db;
+		border-top:2px solid #ff994b;
+		color:#ff994b;
 	}
 
 	.nav li a:focus{
 		background: transparent !important;
-		border-top:2px solid #3498db;
-		color:#3498db;
+		border-top:2px solid #ff994b;
+		color:#ff994b;
 	}
 
 	.dark-nav .nav li a{
@@ -879,14 +879,14 @@
 
 	.dark-nav .nav li a:hover{
 		background: transparent !important;
-		border-top:2px solid #3498db;
-		color:#3498db;
+		border-top:2px solid #ff994b;
+		color:#ff994b;
 	}
 	
 	.dark-nav .nav li a:active{
 		background: transparent !important;
-		border-top:2px solid #3498db;
-		color:#3498db;
+		border-top:2px solid #ff994b;
+		color:#ff994b;
 	}
 
 /* DropDown Menu */
@@ -1165,13 +1165,13 @@
 	}
 
 	.f-box:hover .f-icon i{
-		color:#3498db;
+		color:#ff994b;
 	}
 
 
-/* Testimonials */	
+/* clients */	
 
-	.testimonials{
+	.clients{
 		background: url(../assets/i2.jpg) center center fixed;
 		padding: 140px 0 70px;
 		text-align: center;
@@ -1525,7 +1525,7 @@
 
 	#history ul.timeline li.note:hover,
 	#history ul.timeline li.note:hover:after{
-		background:#3498db;
+		background:#ff994b;
 	}
 
 	#history ul.timeline li.note:hover p.history-date,
@@ -1536,12 +1536,12 @@
 
 	#history ul.timeline li.note:hover span.note-arrow,
 	#history ul.timeline li.note:hover span.note-arrow:after{
-		border-right-color: #3498db; 
+		border-right-color: #ff994b; 
 	}
 
 	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
 	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
-		border-left-color: #3498db; 
+		border-left-color: #ff994b; 
 	}
 
 	a.timeline-image img:hover{
@@ -2028,7 +2028,7 @@
 		-moz-transform: scale(1.5);
 		-ms-transform: scale(1.5);
 		transform: scale(1.5);
-		background-color:#3498db;
+		background-color:#ff994b;
 	}
 
 	.first-holder{
@@ -2089,7 +2089,7 @@
 	}
 
 	.why-oxygen-accordion .accordion-toggle:hover{
-		color:#3498db;
+		color:#ff994b;
 	}
 
 	.why-oxygen-accordion .accordion-body{
@@ -2103,7 +2103,7 @@
 
 	.why-oxygen-accordion span.positive-s{
 		top:-4px;
-		background-color:#3498db;
+		background-color:#ff994b;
 		-webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		transform: rotate(45deg);
@@ -2118,36 +2118,11 @@
 
 /* Team */
 
-	#team{
+	#projects{
 		border-bottom:1px solid #f2f2f2;
 	}
-
-	#team .team .team-members{
-		margin:30px auto 0;
-	}
-
-	.team-members .member{
-		margin:15px auto;
-		cursor: default;
-		overflow: hidden;
-	}
-
-	.team-members .member .member-inner{
-		position: relative;
-	}
-
-	.team-members .member a.team-image{
-		display: block;
-		width: 100%;
-		height: auto;
-		z-index: 2;
-	}
-
-	.team-members .member a.team-image img{
-		width: 100%;
-	}
-
-	.inner-details .member-details{
+	
+	.inner-details {
 		position: absolute;
 		width: 100%;
 		left:0;
@@ -2162,60 +2137,12 @@
 		transition: all 0.4s;
 	}
 
-	.inner-details .member-details .member-details-inner{
+	.inner-details {
 		position: relative;
 		top:50%;
 		-webkit-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
 		transform: translateY(-50%);
-	}
-
-/* Team Names, Descriptions */
-
-	.team-members .member-details .member-name{
-		color: white;
-		margin-top:0;
-		padding-top:0;
-		font-size:30px;
-	}
-
-	.team-members .member-details .member-position{
-		color:#3498db;
-		font-size:13px;
-	}
-
-	.team-members .member-details .member-description{
-		color:#d7d7d7;
-		font-size:13px;
-	}
-
-/* Team Socials */
-
-	.member .member-details .member-details-inner .socials{
-		margin:10px auto 0;
-	}
-
-	.member .member-details .member-details-inner .socials a{
-		display: inline-block;
-		color:white;
-		font-size:15px;
-		padding:4px;
-		width:25px;
-		background:transparent;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-
-/* Team Rollover */
-
-	.team-members .member:hover .member-details{
-		top:0;
-	}
-
-	.member .member-details .member-details-inner .socials a:hover{
-		background:white;
-		color:#111111;
 	}
 
 
@@ -2472,24 +2399,24 @@
 
 	.prices .tables .active .price-table-top .price-circle p.price,
 	.prices .tables .active .price-table-top .price-circle p.timely{
-		color:#3498db;
+		color:#ff994b;
 	}
 
 	.prices .tables .active .table-inner a.price-buy-now,
 	.prices .tables .active a.price-table-img{
-		background:#3498db;
+		background:#ff994b;
 	}
 
 /* Table Rollovers */
 
 	.table-inner a.price-buy-now:hover{
-		background:#3498db;
+		background:#ff994b;
 		color:white;
 	}
 
 	.pricing-table:hover .price-table-top .price-circle p.price,
 	.pricing-table:hover .price-table-top .price-circle p.timely{
-		color:#3498db;
+		color:#ff994b;
 	}
 
 /* Google Map */
@@ -2540,7 +2467,7 @@
 	}
 
 	#map .google-map-big-button:hover{
-		background:#3498db;
+		background:#ff994b;
 		color:white;
 	}
 
@@ -2659,9 +2586,9 @@
 	}
 
 	.form-btn:hover{
-		background:#3498db;
+		background:#ff994b;
 		color: white;
-		border:1px solid #3498db;
+		border:1px solid #ff994b;
 	}
 
 	.form-btn:active{
@@ -2734,7 +2661,7 @@
 	}
 
 	#site-socials .top-button:hover{
-		color:#3498db;
+		color:#ff994b;
 	}
 
 /* Footer */
@@ -2759,7 +2686,7 @@
 	}
 
 	.footer p.copyright a:hover{
-		color:#3498db;
+		color:#ff994b;
 	}
 
 /* Multiple Page Header */
