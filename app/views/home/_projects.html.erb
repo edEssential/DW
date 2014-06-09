@@ -6,7 +6,8 @@
 		<% @projects.each do |p| %>
 			<div class="item">
 				<h2 class="dark"><%= p.client %> |  <%= p.title %>
-				<a class="service-icon infome">
+				<input type="hidden" value=<%= p.id %> class="modal-object-id">
+				<a class="service-icon infome showButton" href="#projectShow">
 					<i class="fa fa-info-circle"></i>
 				</a>
 				</h2>
@@ -15,6 +16,8 @@
 				</div>
 			</div><!-- //work1 -->
 		<% end %>
+		
+		<%= render :partial => "modal" %>
 	
 	</div>
 </section><!-- End Team Section -->

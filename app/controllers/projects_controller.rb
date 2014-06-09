@@ -21,6 +21,18 @@ class ProjectsController < ApplicationController
         format.html { redirect_to root_path }
       end
     end
+    
+    def project_show_via_ajax_call
+      project = Project.find(params[:id])
+      #next_project = project.next
+      #next_project_id = next_project.map {|np| np.id}.join("")
+      #prev_project = project.prev
+      #prev_project_id = prev_project.map {|pp| pp.id}.join("")
+      
+      video = project.url
+      project_show = { :id => project.id, :title => project.title, :client => project.client, :description => project.description, :video => video }
+      render :json => project_show
+    end
 
     def index
       @project = Project.all

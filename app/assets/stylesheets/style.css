@@ -3011,6 +3011,10 @@
 		color:white;
 		border:1px solid #404040;
 	}
+	
+	.modal-title {text-align:center;font-size:18px;font-weight:800;color:#ffffff;}
+	.modalVideo {width:80%;margin:-2% 8% 8% 8%;}
+	.modal-header {background-color:#ff994b;}
 
 
 

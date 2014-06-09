@@ -7,6 +7,7 @@ gem 'aws-sdk'
 gem "auto_html"
 gem 'newrelic_rpm'
 gem 'devise'
+gem 'smt_rails', git: 'git://github.com/railsware/smt_rails.git'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
