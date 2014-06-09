@@ -87,6 +87,8 @@
 	.btn:active{
 		outline:none;
 	}
+	li.padded {height:140px;padding:0px 35px;display:inline-block;}
+	li.padded img {max-width:135px;}
 
 /* Font Classes */	
 
@@ -936,6 +938,10 @@
 	}
 
 /* About */
+
+	#about {
+		background:#000000;
+	}
 	
 	#about .inner .boxes{
 		overflow: hidden;
@@ -1037,7 +1043,7 @@
 /* Services */
 
 	#services{
-		background:url(../assets/i1.jpg) center center fixed;
+		background:#f8f8f8;
 		padding:55px 0;
 		overflow: hidden;
 	}
@@ -1177,6 +1183,13 @@
 		text-align: center;
 		overflow: hidden;
 		position: relative;
+	}
+	
+	.clientimages {
+		padding-top:0!important;
+		margin-top:0!important;
+		padding-bottom:0!important;
+		margin-bottom:0!important;
 	}
 
 	.t-slides{
@@ -2144,6 +2157,9 @@
 		-moz-transform: translateY(-50%);
 		transform: translateY(-50%);
 	}
+	
+	.item {width:500px;float:left;margin:10px 42px;}
+	.infome {margin:1px 0px;float:right;}
 
 
 /* Fun Acts */

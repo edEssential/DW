@@ -1,8 +1,20 @@
 <!-- Team -->
 <section id="projects" class="container">
-
-	<!-- Team Inner -->
-	<div class="inner team">
-		<h1 class="dark">THIS IS WHERE THE PROJECTS YOU HAVE WORKED ON WILL LIVE</h1>
-	</div><!-- End Team Inner -->
+	
+	<div class="inner">
+	
+		<% @projects.each do |p| %>
+			<div class="item">
+				<h2 class="dark"><%= p.client %> |  <%= p.title %>
+				<a class="service-icon infome">
+					<i class="fa fa-info-circle"></i>
+				</a>
+				</h2>
+				<div class="fitvids">
+					<iframe src="//player.vimeo.com/video/<%= p.url %>" width="500" height="282" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div><!-- //work1 -->
+		<% end %>
+	
+	</div>
 </section><!-- End Team Section -->

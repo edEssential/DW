@@ -16,11 +16,14 @@
 	<section id="pageloader">
 		<div class="loader-item fa fa-spin colored-border"></div>
 	</section>
-
-
-	<%= render 'layouts/header' %>
-	<%= yield %>
-	<%= render 'layouts/footer' %>
+	
+	<% if controller.controller_name == 'home' %>
+		<%= render 'layouts/header' %>
+		<%= yield %>
+		<%= render 'layouts/footer' %>
+	<% else %>
+		<%= yield %>
+	<% end %>
 	
 	<%= javascript_include_tag "application" %>
 

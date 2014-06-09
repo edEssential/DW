@@ -20,3 +20,52 @@
 	display:inline-block;
 	color:#202326;
 }
+
+#cmsBacker, #formBacker {
+	min-height:1000px;	
+	background-image:url(../assets/slide2-alt.jpg);
+	background-size:cover;
+	background-attachment:fixed !important;
+	margin-top:-20px;
+}
+.formWrapper {
+	margin:10px 0px 50px 0px;
+	padding:40px;
+	float:left;
+	clear:both;
+	width:40%;
+	margin-left:30%;
+	background-color:rgba(255,255,255,0.9);
+	border:2px solid;
+	border-radius:15px;
+}
+#cmsHeader {text-align:center;}
+#cmsTitle {color:#e5e5e5!important;margin-top:45px;padding-bottom:20px;font-size:40px;}
+.text-area, .text-areaArea {
+	height:35px;
+	width:60%!important;
+	margin-left:20%!important;
+	background-color:#202326!important;
+	color:#ffffff!important;
+	-webkit-appearance: none;
+    -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+}
+.formImage {width:30%;margin:10px 0px -10px 35%;}
+.formText, .formTitle {
+	font-size:17px;
+	width:80%;
+	margin:5px 10%;
+	font-family:"Open Sans";
+	text-align:center;
+}
+.formText2 {
+	font-size:12px;
+	text-align:center;
+	width:80%;
+	margin:0px 10% 10px 10%;
+}
+.footer-alt {
+	height:0;
+	margin:0;
+}
+.text-areaArea {height:200px;}
