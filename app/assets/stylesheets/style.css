@@ -336,11 +336,11 @@
 	}
 
 	.colored{
-		color: #ff994b;
+		color: #4E78A0;
 	}
 
 	.colored-bg{
-		background-color: #ff994b;
+		background-color: #4E78A0;
 	}
 
 	.gray-border{
@@ -348,15 +348,15 @@
 	}
 
 	.colored-border{
-		border-color: #ff994b;
+		border-color: #4E78A0;
 	}
 
 	.colored-border-left{
-		border-left-color: #ff994b;
+		border-left-color: #4E78A0;
 	}
 
 	.colored-border-right{
-		border-right-color: #ff994b;
+		border-right-color: #4E78A0;
 	}
 
 	.white-bg{
@@ -553,8 +553,15 @@
 	#home .v2 .typographic h2{
 		text-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
 		line-height: 1.05;
-		font-size:80%;
+		font-size:14px!important;
 		margin:10px 0;
+	}
+	
+	#home .v2 .typographic h3{
+		text-shadow:2px 2px 2px rgba(0, 0, 0, 0.15);
+		line-height: 1.05;
+		font-size:38px!important;
+		margin:16px 0;
 	}
 
 /* Home V5  */
@@ -859,20 +866,20 @@
 
 	.nav li a:hover{
 		background: transparent !important;
-		border-top:2px solid #ff994b;
-		color:#ff994b;
+		border-top:2px solid #4E78A0;
+		color:#4E78A0;
 	}
 
 	.nav li.active a{
 		background: transparent;
-		border-top:2px solid #ff994b;
-		color:#ff994b;
+		border-top:2px solid #4E78A0;
+		color:#4E78A0;
 	}
 
 	.nav li a:focus{
 		background: transparent !important;
-		border-top:2px solid #ff994b;
-		color:#ff994b;
+		border-top:2px solid #4E78A0;
+		color:#4E78A0;
 	}
 
 	.dark-nav .nav li a{
@@ -881,14 +888,14 @@
 
 	.dark-nav .nav li a:hover{
 		background: transparent !important;
-		border-top:2px solid #ff994b;
-		color:#ff994b;
+		border-top:2px solid #4E78A0;
+		color:#4E78A0;
 	}
 	
 	.dark-nav .nav li a:active{
 		background: transparent !important;
-		border-top:2px solid #ff994b;
-		color:#ff994b;
+		border-top:2px solid #4E78A0;
+		color:#4E78A0;
 	}
 
 /* DropDown Menu */
@@ -1171,7 +1178,7 @@
 	}
 
 	.f-box:hover .f-icon i{
-		color:#ff994b;
+		color:#4E78A0;
 	}
 
 
@@ -1538,7 +1545,7 @@
 
 	#history ul.timeline li.note:hover,
 	#history ul.timeline li.note:hover:after{
-		background:#ff994b;
+		background:#4E78A0;
 	}
 
 	#history ul.timeline li.note:hover p.history-date,
@@ -1549,12 +1556,12 @@
 
 	#history ul.timeline li.note:hover span.note-arrow,
 	#history ul.timeline li.note:hover span.note-arrow:after{
-		border-right-color: #ff994b; 
+		border-right-color: #4E78A0; 
 	}
 
 	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
 	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
-		border-left-color: #ff994b; 
+		border-left-color: #4E78A0; 
 	}
 
 	a.timeline-image img:hover{
@@ -2041,7 +2048,7 @@
 		-moz-transform: scale(1.5);
 		-ms-transform: scale(1.5);
 		transform: scale(1.5);
-		background-color:#ff994b;
+		background-color:#4E78A0;
 	}
 
 	.first-holder{
@@ -2102,7 +2109,7 @@
 	}
 
 	.why-oxygen-accordion .accordion-toggle:hover{
-		color:#ff994b;
+		color:#4E78A0;
 	}
 
 	.why-oxygen-accordion .accordion-body{
@@ -2116,7 +2123,7 @@
 
 	.why-oxygen-accordion span.positive-s{
 		top:-4px;
-		background-color:#ff994b;
+		background-color:#4E78A0;
 		-webkit-transform: rotate(45deg);
 		-moz-transform: rotate(45deg);
 		transform: rotate(45deg);
@@ -2415,24 +2422,24 @@
 
 	.prices .tables .active .price-table-top .price-circle p.price,
 	.prices .tables .active .price-table-top .price-circle p.timely{
-		color:#ff994b;
+		color:#4E78A0;
 	}
 
 	.prices .tables .active .table-inner a.price-buy-now,
 	.prices .tables .active a.price-table-img{
-		background:#ff994b;
+		background:#4E78A0;
 	}
 
 /* Table Rollovers */
 
 	.table-inner a.price-buy-now:hover{
-		background:#ff994b;
+		background:#4E78A0;
 		color:white;
 	}
 
 	.pricing-table:hover .price-table-top .price-circle p.price,
 	.pricing-table:hover .price-table-top .price-circle p.timely{
-		color:#ff994b;
+		color:#4E78A0;
 	}
 
 /* Google Map */
@@ -2483,7 +2490,7 @@
 	}
 
 	#map .google-map-big-button:hover{
-		background:#ff994b;
+		background:#4E78A0;
 		color:white;
 	}
 
@@ -2602,9 +2609,9 @@
 	}
 
 	.form-btn:hover{
-		background:#ff994b;
+		background:#4E78A0;
 		color: white;
-		border:1px solid #ff994b;
+		border:1px solid #4E78A0;
 	}
 
 	.form-btn:active{
@@ -2677,7 +2684,7 @@
 	}
 
 	#site-socials .top-button:hover{
-		color:#ff994b;
+		color:#4E78A0;
 	}
 
 /* Footer */
@@ -2702,7 +2709,7 @@
 	}
 
 	.footer p.copyright a:hover{
-		color:#ff994b;
+		color:#4E78A0;
 	}
 
 /* Multiple Page Header */
@@ -3014,7 +3021,7 @@
 	
 	.modal-title {text-align:center;font-size:18px;font-weight:800;color:#ffffff;}
 	.modalVideo {width:80%;margin:-2% 8% 8% 8%;}
-	.modal-header {background-color:#ff994b;}
+	.modal-header {background-color:#4E78A0;}
 
 
 

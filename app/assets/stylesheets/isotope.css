@@ -423,6 +423,11 @@ body {
 
 #content {
   margin-left: 210px;
+  color:#000000;
+}
+
+#mapsContent {
+	color:#000000;font-size:18px;
 }
 
 .demos #content {
