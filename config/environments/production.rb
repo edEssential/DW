@@ -64,24 +64,5 @@ Onetree::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-  config.action_mailer.smtp_settings = {
-    :address => "smtp.mandrillapp.com",
-    :port => 587,
-    :enable_starttls_auto => true,
-    :user_name => 'ed_hamilton@live.com',
-    :password => 'L2721U_ThNJJwTqBeDpH5w',
-    :authentication => 'login',
-    :domain => 'domain.com',
-    
-  }
-    
-  ActionMailer::Base.delivery_method = :smtp
-  
-  config.middleware.use ExceptionNotification::Rack,
-    :email => {
-      :email_prefix => "[Exception error] ",
-      :sender_address => %{"notifier" <errors@annarosecarter.com>},
-      :exception_recipients => %w{ed_hamilton@live.com}
-    }
     
 end
