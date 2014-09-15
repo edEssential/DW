@@ -1,5 +1,5 @@
 class ServicesController < ApplicationController
-  #before_filter :authenticate_user!, except: [:project_show_via_ajax_call]
+  before_filter :authenticate_user!
 
     def new
       @service = Service.new
