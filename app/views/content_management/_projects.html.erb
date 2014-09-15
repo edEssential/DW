@@ -1,0 +1,31 @@
+<div class="cmsWrapper">
+	<div class="releases">
+		<div class="divHeader">Projects</div>
+		<div class="tableWrapper">
+			<div class="tableContent">
+				<% if @projects.count > 0 %>
+					<table width="100%">
+						<tr class="tableHeader">
+							<th>CLIENT</th>
+							<th>PROJECT</th>
+							<th>URL</th>
+						</tr>
+						<tr><hr class="ruler"/></tr>
+						<% @projects.each do |p| %>
+							<tr class="tableRow">
+								<td width="22%"><%= p.client %></td>
+								<td width="22%"><%= p.title %></td>
+								<td width="50%"><%= link_to "http://vimeo.com/#{p.url}", "http://vimeo.com/#{p.url}", :target => "_blank" %></td>
+								<td width="3%"><%= link_to image_tag('edit2.png'), edit_project_path(p) %></td>
+							</tr>
+						<% end %>
+					</table>
+				<% else %>
+					<table width="100%"><tr class="tableRow empty"><td><em>YOU HAVE NO PROJECTS YET... ADD SOME BELOW ?!</em></td></tr></table>
+				<% end %>
+			</div>
+			<div id="person-form" title="Person" style="display:none"></div>
+		</div>
+	</div>
+	<h6><%= link_to 'Add new project', new_project_path, :class => "darkButton2" %></h6>
+</div>

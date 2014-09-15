@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   
   def bring_in_models
       @projects = Project.all
+      @services = Service.all
   end
   
 end

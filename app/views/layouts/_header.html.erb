@@ -9,6 +9,13 @@
 				<img src="assets/logo.png" alt="logo" />
 			</a>
 		</div><!-- End Site Logo -->
+		<% if user_signed_in? %>
+			<div class="userInfo">
+				<div>{ Logged in as <strong><%= current_user.email %></strong> }</div>
+				<div class="cmsLinks"><%= link_to 'Edit', edit_user_registration_path %> | <%= link_to 'Logout', destroy_user_session_path %> | <%= link_to "Manage content", content_management_index_path %></div>
+			</div>
+		<% end %>
+				
 		<a class="mini-nav-button dark"><i class="fa fa-bars"></i></a>
 		<!-- Navigation Menu -->
 		<div class="nav-menu">

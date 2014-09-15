@@ -41,22 +41,27 @@
 }
 #cmsHeader {text-align:center;}
 #cmsTitle {color:#e5e5e5!important;margin-top:45px;padding-bottom:20px;font-size:40px;}
-.text-area, .text-areaArea {
+.text-area, .text-areaArea, .text-area2, .text-areaArea2 {
 	height:35px;
 	width:60%!important;
-	margin-left:20%!important;
+	margin-left:1%!important;
 	background-color:#202326!important;
 	color:#ffffff!important;
 	-webkit-appearance: none;
     -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 }
+.text-area2, .text-areaArea2 {
+	width:60%!important;
+	margin-left:20%!important;
+}
 .formImage {width:30%;margin:10px 0px -10px 35%;}
 .formText, .formTitle {
 	font-size:17px;
 	width:80%;
-	margin:5px 10%;
+	margin:7px 10%;
 	font-family:"Open Sans";
 	text-align:center;
+	color:#202326;
 }
 .formText2 {
 	font-size:12px;
@@ -68,4 +73,4 @@
 	height:0;
 	margin:0;
 }
-.text-areaArea {height:200px;}
+.text-areaArea, .text-areaArea2 {height:200px;}

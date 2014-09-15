@@ -1,0 +1,28 @@
+<section class="cmsBacker parallax2">
+	
+	<div class="">
+		<!-- Your Logo -->
+		<%= image_tag('logo-icon-m.png') %>
+	</div>
+	
+	<div class="title grid-full">
+		<h2 class="bold">Sign up</h2>
+		<div class="minusTop"><%= link_to "{ HOME }", root_path %></div>
+		<span class="border"></span>
+	</div>
+	
+	<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+		<div class="formWrapper">	
+			<%= devise_error_messages! %>
+			<%= f.label :email, class: "formText" %><br/>
+    		<%= f.email_field :email, class: 'email text-area' %><br /><br />
+			<%= f.label :password, class: "formText" %><br />
+    		<%= f.password_field :password, class: 'email text-area' %><br /><br />
+			<%= f.label :password_confirmation, class: "formText" %><br />
+    		<%= f.password_field :password_confirmation, class: 'email text-area' %><br /><br /><br />
+		</div>
+		<div class="title grid-full">
+			<%= f.submit "Sign up", class: "button2" %><br/><br/>
+		</end>
+	<% end %>
+</section>
