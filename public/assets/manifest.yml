@@ -59,6 +59,10 @@ clients/toyota.png: clients/toyota-63722239ffd05cc16dc09081c1f46fd3.png
 clients/toyota/index.png: clients/toyota-63722239ffd05cc16dc09081c1f46fd3.png
 clients/unilver.png: clients/unilver-435b1705abd6001b9ca141087a6819b2.png
 clients/unilver/index.png: clients/unilver-435b1705abd6001b9ca141087a6819b2.png
+delete2.png: delete2-c6f9c377e7428855de8aa59714f96d39.png
+delete2/index.png: delete2-c6f9c377e7428855de8aa59714f96d39.png
+edit2.png: edit2-823ebde0f7365595552634ad84e56d71.png
+edit2/index.png: edit2-823ebde0f7365595552634ad84e56d71.png
 favicon.png: favicon-017927dc54e5164a8951eb7757b61a70.png
 favicon/index.png: favicon-017927dc54e5164a8951eb7757b61a70.png
 history-strip.jpg: history-strip-baf9a1830e21e0f855ea3a9c3c7e7fa4.jpg
@@ -265,5 +269,5 @@ work-arrow.png: work-arrow-3c784a31dd067afc4139b1f5b635c750.png
 work-arrow/index.png: work-arrow-3c784a31dd067afc4139b1f5b635c750.png
 application.js: application-195ec8c12e63f8ec1c189de35ea8d0fd.js
 application/index.js: application-195ec8c12e63f8ec1c189de35ea8d0fd.js
-application.css: application-f2cf9d0cb2262cef350c20ed0073ef71.css
-application/index.css: application-f2cf9d0cb2262cef350c20ed0073ef71.css
+application.css: application-0c7728677157fa4843aa2353e8f70398.css
+application/index.css: application-0c7728677157fa4843aa2353e8f70398.css
